@@ -3,7 +3,7 @@ use std::time::Instant;
 use sha2::{Sha256, Digest};
 pub mod merkle;
 pub mod wallet;
-
+pub mod token;
 #[derive(Debug , Clone)]
 pub struct Transaction{
     pub from : String , 
